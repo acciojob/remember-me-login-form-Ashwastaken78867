@@ -1,9 +1,7 @@
-//your JS code here. If
-
 const loginForm = document.getElementById("loginForm");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
-const rememberMeCheckbox = document.getElementById("rememberMe");
+const rememberMeCheckbox = document.getElementById("checkbox"); // Updated
 const existingUserButton = document.getElementById("existing");
 
 // Check if user details exist in localStorage
@@ -52,9 +50,6 @@ existingUserButton.addEventListener("click", () => {
 
 // Initial check for existing user
 checkExistingUser();
-
-
-
 
 
 
